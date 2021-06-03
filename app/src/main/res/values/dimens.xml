@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="size_of_text">15sp</dimen>
+    <dimen name="marginBetweenButton">2dp</dimen>
+    <dimen name="minWidthButton">80dp</dimen>
 </resources>

@@ -4,37 +4,41 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="horizontal"
+    android:layout_columnSpan="4"
     android:background="@color/color_background_table">
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
 
         <Button
             android:id="@+id/button_del_el"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_other_sighs"
             android:text="@string/button_text_del_el"
             android:textColor="@color/text_color_other_signs"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_del_all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_other_sighs"
             android:text="@string/button_text_del_all"
             android:textColor="@color/text_color_other_signs"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_equally"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:layout_span="2"
             android:backgroundTint="@color/color_button_equally"
             android:text="@string/button_text_equally"
@@ -45,43 +49,47 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
 
         <Button
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_7"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_8"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_9"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_plus"
             android:textColor="@color/text_color_math_signs"
@@ -91,43 +99,47 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
 
         <Button
             android:id="@+id/button_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_4"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_5"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_6"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_minus"
             android:textColor="@color/text_color_math_signs"
@@ -137,43 +149,47 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
 
         <Button
             android:id="@+id/button_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_1"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_2"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_3"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_multiply"
             android:textColor="@color/text_color_math_signs"
@@ -183,34 +199,37 @@
 
     <TableRow
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="center">
 
         <Button
             android:id="@+id/button_0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:layout_span="2"
             android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_0"
             android:textColor="@color/text_color_numbers"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_other_sighs"
             android:text="@string/button_text_point"
             android:textColor="@color/text_color_other_signs"
             android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="5dp"/>
+            android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_split"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minWidth="@dimen/minWidthButton"
             android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_split"
             android:textColor="@color/text_color_math_signs"
