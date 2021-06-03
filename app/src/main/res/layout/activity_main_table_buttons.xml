@@ -12,25 +12,33 @@
 
         <Button
             android:id="@+id/button_del_el"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_other_sighs"
             android:text="@string/button_text_del_el"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_other_signs"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_del_all"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_other_sighs"
             android:text="@string/button_text_del_all"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_other_signs"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_equally"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_span="2"
+            android:backgroundTint="@color/color_button_equally"
             android:text="@string/button_text_equally"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_button_equally"
+            android:textSize="@dimen/size_of_text" />
 
     </TableRow>
 
@@ -41,31 +49,42 @@
 
         <Button
             android:id="@+id/button_7"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_7"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_8"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_8"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_9"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_9"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_plus"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_plus"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_math_signs"
+            android:textSize="@dimen/size_of_text" />
 
     </TableRow>
 
@@ -76,31 +95,42 @@
 
         <Button
             android:id="@+id/button_4"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_4"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_5"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_5"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_6"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_6"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_minus"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_minus"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_math_signs"
+            android:textSize="@dimen/size_of_text" />
 
     </TableRow>
 
@@ -111,31 +141,42 @@
 
         <Button
             android:id="@+id/button_1"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_1"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_2"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_2"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_3"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_3"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_multiply"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_multiply"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_math_signs"
+            android:textSize="@dimen/size_of_text" />
 
     </TableRow>
 
@@ -146,29 +187,34 @@
 
         <Button
             android:id="@+id/button_0"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_span="2"
+            android:backgroundTint="@color/color_numbers"
             android:text="@string/button_text_0"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_numbers"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_point"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_other_sighs"
             android:text="@string/button_text_point"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_other_signs"
+            android:textSize="@dimen/size_of_text"
+            android:layout_marginEnd="5dp"/>
 
         <Button
             android:id="@+id/button_split"
-            android:layout_height="wrap_content"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color_math_sighs"
             android:text="@string/button_text_split"
-            android:textSize="@dimen/size_of_text"/>
+            android:textColor="@color/text_color_math_signs"
+            android:textSize="@dimen/size_of_text" />
 
     </TableRow>
-
-
-
 
 </TableLayout>

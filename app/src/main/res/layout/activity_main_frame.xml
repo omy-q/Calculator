@@ -6,11 +6,13 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"/>
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"/>
     <include
         layout="@layout/activity_main_table_buttons"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>
