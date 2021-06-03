@@ -10,7 +10,7 @@
     <string name="button_text_multiply">*</string>
     <string name="button_text_split">/</string>
 
-    <string name="button_text_point">/</string>
+    <string name="button_text_point">.</string>
 
     <string name="button_text_0">0</string>
     <string name="button_text_1">1</string>
