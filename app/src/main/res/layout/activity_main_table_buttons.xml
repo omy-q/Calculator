@@ -4,4 +4,33 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="horizontal">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_del_el"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/button_text_del_el"
+            android:textSize="@dimen/size_of_text"/>
+
+        <Button
+            android:id="@+id/button_del_all"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/button_text_del_all"
+            android:textSize="@dimen/size_of_text"/>
+
+        <Button
+            android:id="@+id/button_equally"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_span="2"
+            android:text="@string/button_text_equally"
+            android:textSize="@dimen/size_of_text"/>
+
+    </TableRow>
 </TableLayout>
