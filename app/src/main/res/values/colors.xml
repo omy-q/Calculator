@@ -21,5 +21,8 @@
     <color name="color_other_sighs">#8664EC</color>
     <color name="text_color_other_signs">#FFFFFFFF</color>
 
+    <color name="color_background_table">#663700B3</color>
+    <color name="color_background_text_view">#CCCEBCF6</color>
+
 
 </resources>

@@ -8,7 +8,8 @@
     <TextView
         android:layout_height="150dp"
         android:layout_width="match_parent"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:background="@color/color_background_text_view"/>
     <include
         layout="@layout/activity_main_table_buttons"
         android:layout_width="match_parent"
