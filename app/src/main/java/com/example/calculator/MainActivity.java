@@ -10,6 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView text;
+    private Button equallyButton;
 
     private final View.OnClickListener listener = new View.OnClickListener() {
         @Override
@@ -31,11 +32,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        init();
+    }
+
+
+
+    private void init(){
         initTextView();
         initNumbersButton();
         initMathButton();
         initSpecialButton();
-        
+        initEqually();
     }
 
     private void initMathButton() {
@@ -70,6 +77,16 @@ public class MainActivity extends AppCompatActivity {
 
     private void initTextView() {
         text = findViewById(R.id.text_view);
+    }
+
+    private void initEqually(){
+        equallyButton = findViewById(R.id.button_equally);
+        equallyButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
 }
