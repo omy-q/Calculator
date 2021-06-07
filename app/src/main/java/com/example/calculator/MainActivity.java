@@ -14,7 +14,16 @@ public class MainActivity extends AppCompatActivity {
     private final View.OnClickListener listener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            text.append(((Button) v).getText());
+            if (v.getId() == R.id.button_del_el){
+                CharSequence str = text.getText();
+                text.setText(str.subSequence(0, str.length() - 1));
+            }
+            else if (v.getId() == R.id.button_del_all){
+                text.setText("");
+            }
+            else {
+                text.append(((Button) v).getText());
+            }
         }
     };
 
@@ -25,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         initTextView();
         initNumbersButton();
         initMathButton();
+        initSpecialButton();
         
     }
 
@@ -50,6 +60,12 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_8).setOnClickListener(listener);
         findViewById(R.id.button_9).setOnClickListener(listener);
 
+    }
+
+    private void initSpecialButton() {
+
+        findViewById(R.id.button_del_el).setOnClickListener(listener);
+        findViewById(R.id.button_del_all).setOnClickListener(listener);
     }
 
     private void initTextView() {
