@@ -11,7 +11,8 @@
         android:layout_height="150dp"
         android:layout_width="match_parent"
         android:layout_marginTop="50dp"
-        android:background="@color/color_background_text_view"/>
+        android:background="@color/color_background_text_view"
+        android:textSize="@dimen/size_of_text_view"/>
     <include
         layout="@layout/activity_main_table_buttons"
         android:layout_width="match_parent"
