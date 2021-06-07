@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView text;
     private Button equallyButton;
+    private Adapter adapter;
 
     private final View.OnClickListener listener = new View.OnClickListener() {
         @Override
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        adapter = new Adapter();
     }
 
 
@@ -84,7 +86,8 @@ public class MainActivity extends AppCompatActivity {
         equallyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                adapter.setData(text.getText());
+                adapter.processingData();
             }
         });
     }
