@@ -24,7 +24,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initTextView();
         initNumbersButton();
+        initMathButton();
         
+    }
+
+    private void initMathButton() {
+
+        findViewById(R.id.button_plus).setOnClickListener(listener);
+        findViewById(R.id.button_minus).setOnClickListener(listener);
+        findViewById(R.id.button_multiply).setOnClickListener(listener);
+        findViewById(R.id.button_split).setOnClickListener(listener);
+        findViewById(R.id.button_point).setOnClickListener(listener);
     }
 
     private  void initNumbersButton(){
@@ -45,4 +55,5 @@ public class MainActivity extends AppCompatActivity {
     private void initTextView() {
         text = findViewById(R.id.text_view);
     }
+
 }
