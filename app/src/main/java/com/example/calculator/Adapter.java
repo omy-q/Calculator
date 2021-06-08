@@ -38,7 +38,14 @@ public class Adapter {
     }
 
     protected void setData(CharSequence data) {
+        arrayNumbers.clear();
+        arrayOperations.clear();
         this.data = data.toString();
+    }
+
+    protected CharSequence getData(){
+        Calculator calculator = new Calculator(getNumbersArray(), getOperationArray());
+        return Float.toString(calculator.getResult());
     }
 
 }

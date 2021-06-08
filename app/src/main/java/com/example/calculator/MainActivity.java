@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView text;
-    private Button equallyButton;
+//    private Button equallyButton;
     private Adapter adapter;
 
     private final View.OnClickListener listener = new View.OnClickListener() {
@@ -82,12 +82,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initEqually(){
-        equallyButton = findViewById(R.id.button_equally);
+        Button equallyButton = findViewById(R.id.button_equally);
         equallyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 adapter.setData(text.getText());
                 adapter.processingData();
+                text.append(" = " + adapter.getData());
             }
         });
     }
