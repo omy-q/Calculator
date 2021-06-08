@@ -48,4 +48,45 @@ public class Adapter {
         return Float.toString(calculator.getResult());
     }
 
+    private boolean isContainMathSign(char ch){
+        return(ch == '+' || ch == '-' ||  ch == '*' || ch == '/' || ch == '.' || ch == '=');
+    }
+
+    private boolean isContainRowMathSign(char ch0, char ch1){
+        return(isContainMathSign(ch0) && isContainMathSign(ch1));
+    }
+
+    private boolean isContainRowMathSignAllText(CharSequence text){
+        boolean isContain = false;
+        for (int i = 0; i < text.length() - 1; i++){
+            if (isContainRowMathSign(text.charAt(i), text.charAt(i+1))) {
+                isContain = true;
+                break;
+            }
+        }
+        return isContain;
+    }
+
+    protected boolean isContainEquallySign(CharSequence text){
+        return(text.toString().contains("="));
+    }
+
+//    private boolean isEmptyText (){}
+
+    protected boolean isAvailable(CharSequence text, boolean isClickEqually){
+        if (text.length() == 0) return false;
+        if (isContainMathSign(text.charAt(0))) return false;
+        if (text.length() > 1){
+            if (isContainRowMathSign(text.charAt(text.length() - 2), text.charAt(text.length() - 1)))
+                return false;
+        }
+        if (isClickEqually){
+            if (isContainEquallySign(text)) return false;
+            if (isContainMathSign(text.charAt(text.length() - 1)) || isContainRowMathSignAllText(text)){
+                return false;
+            }
+        }
+        return  true;
+    }
+
 }

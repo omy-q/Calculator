@@ -3,9 +3,12 @@ package com.example.calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,13 +21,18 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             if (v.getId() == R.id.button_del_el){
                 CharSequence str = text.getText();
-                text.setText(str.subSequence(0, str.length() - 1));
+                if (str.length() == 0) text.setText("");
+                else text.setText(str.subSequence(0, str.length() - 1));
             }
             else if (v.getId() == R.id.button_del_all){
                 text.setText("");
             }
             else {
+                if (adapter.isContainEquallySign(text.getText())){
+                    text.setText("");
+                }
                 text.append(((Button) v).getText());
+                if (!adapter.isAvailable(text.getText(), false)) makeToast("Ошибка");
             }
         }
     };
@@ -36,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
         init();
         adapter = new Adapter();
     }
-
-
 
     private void init(){
         initTextView();
@@ -86,11 +92,23 @@ public class MainActivity extends AppCompatActivity {
         equallyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                adapter.setData(text.getText());
-                adapter.processingData();
-                text.append(" = " + adapter.getData());
+                Log.i("MainActivity", String.valueOf((!adapter.isAvailable(text.getText(), true))));
+                if (!adapter.isAvailable(text.getText(), true)){
+                    makeToast("Ошибка");
+//                    text.setText("");
+                }
+                else{
+                    adapter.setData(text.getText());
+                    adapter.processingData();
+                    text.append("=" + adapter.getData());
+                }
             }
         });
     }
 
+    private void makeToast(String message){
+        Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.TOP, 0, 0);
+        toast.show();
+    }
 }
