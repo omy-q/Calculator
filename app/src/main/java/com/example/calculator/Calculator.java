@@ -22,31 +22,29 @@ public class Calculator {
     }
 
     private void calculate() {
-        int count = operations.size();
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < operations.size(); i++) {
             Log.i("Calculator Index", Integer.toString(i));
             if (operations.get(i) == '*'|| operations.get(i) == '/') {
                 numbers.set(i, toCalculate(numbers.get(i), numbers.get(i + 1), operations.get(i)));
                 operations.remove(i);
                 numbers.remove(i + 1);
-                count--;
+                i--;
             }
             Log.i("Calculator", this.numbers.toString());
             Log.i("Calculator", this.operations.toString());
 
         }
 
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < operations.size(); i++) {
             Log.i("Calculator Index", Integer.toString(i));
             if (operations.get(i) == '+'|| operations.get(i) == '-') {
                 numbers.set(i, toCalculate(numbers.get(i), numbers.get(i + 1), operations.get(i)));
                 operations.remove(i);
                 numbers.remove(i + 1);
-                count--;
+                i--;
             }
             Log.i("Calculator", this.numbers.toString());
             Log.i("Calculator", this.operations.toString());
-
         }
     }
 
