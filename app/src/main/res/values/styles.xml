@@ -50,4 +50,10 @@
         <item name="android:background">@color/color_background_text_view</item>
     </style>
 
+    <style name="StyleTableLayout" parent="Theme.AppCompat">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/color_background_table</item>
+    </style>
+
 </resources>
