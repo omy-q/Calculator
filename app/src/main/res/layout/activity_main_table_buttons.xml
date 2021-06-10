@@ -95,12 +95,8 @@
             android:id="@+id/button_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_math_sighs"
-            android:text="@string/button_text_plus"
-            android:textColor="@color/text_color_math_signs"
-            android:textSize="@dimen/size_of_text" />
+            style="@style/StyleMathButton"
+            android:text="@string/button_text_plus"/>
 
     </TableRow>
 
@@ -149,12 +145,8 @@
             android:id="@+id/button_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_math_sighs"
-            android:text="@string/button_text_minus"
-            android:textColor="@color/text_color_math_signs"
-            android:textSize="@dimen/size_of_text" />
+            style="@style/StyleMathButton"
+            android:text="@string/button_text_minus"/>
 
     </TableRow>
 
@@ -203,12 +195,8 @@
             android:id="@+id/button_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_math_sighs"
-            android:text="@string/button_text_multiply"
-            android:textColor="@color/text_color_math_signs"
-            android:textSize="@dimen/size_of_text" />
+            style="@style/StyleMathButton"
+            android:text="@string/button_text_multiply" />
 
     </TableRow>
 
@@ -246,12 +234,8 @@
             android:id="@+id/button_split"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_math_sighs"
-            android:text="@string/button_text_split"
-            android:textColor="@color/text_color_math_signs"
-            android:textSize="@dimen/size_of_text" />
+            style="@style/StyleMathButton"
+            android:text="@string/button_text_split" />
 
     </TableRow>
 
