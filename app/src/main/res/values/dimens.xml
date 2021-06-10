@@ -4,4 +4,5 @@
     <dimen name="marginBetweenButton">2dp</dimen>
     <dimen name="minWidthButton">80dp</dimen>
     <dimen name="minHeightButton">60dp</dimen>
+    <dimen name="size_of_text_view">50sp</dimen>
 </resources>
