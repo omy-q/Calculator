@@ -56,4 +56,7 @@
         <item name="android:background">@color/color_background_table</item>
     </style>
 
+    <style name="StyleTableRow" parent="Theme.AppCompat">
+        <item name="android:gravity">center</item>
+    </style>
 </resources>

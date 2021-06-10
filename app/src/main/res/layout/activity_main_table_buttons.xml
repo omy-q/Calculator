@@ -8,7 +8,7 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        style="@style/StyleTableRow">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_del_el"
@@ -39,7 +39,7 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        style="@style/StyleTableRow">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
@@ -74,7 +74,7 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        style="@style/StyleTableRow">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_4"
@@ -109,7 +109,7 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        style="@style/StyleTableRow">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
@@ -144,7 +144,7 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center">
+        style="@style/StyleTableRow">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/button_0"
