@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_del_el"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,7 +20,7 @@
             android:text="@string/button_text_del_el"
             android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_del_all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
             android:text="@string/button_text_del_all"
             android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_equally"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,28 +43,28 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_7"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_8"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_9"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -78,28 +78,28 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_4"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_5"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_6"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_minus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -113,28 +113,28 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_1"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_2"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/StyleNumbersButton"
             android:text="@string/button_text_3"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -148,7 +148,7 @@
         android:layout_height="wrap_content"
         android:gravity="center">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
             android:text="@string/button_text_0"
             android:layout_span="2"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,7 +164,7 @@
             android:text="@string/button_text_point"
             android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/button_split"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
