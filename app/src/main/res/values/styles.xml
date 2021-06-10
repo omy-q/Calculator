@@ -36,4 +36,9 @@
     <style name="StyleFrameLayout" parent="Theme.AppCompat">
         <item name="android:background">@drawable/background2</item>
     </style>
+
+    <style name="StyleLinearLayout" parent="Theme.AppCompat">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
 </resources>
