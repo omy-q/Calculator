@@ -47,37 +47,22 @@
             android:id="@+id/button_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_7"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_7"/>
 
         <Button
             android:id="@+id/button_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_8"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_8"/>
 
         <Button
             android:id="@+id/button_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_9"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_9"/>
 
         <Button
             android:id="@+id/button_plus"
@@ -97,37 +82,22 @@
             android:id="@+id/button_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_4"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_4"/>
 
         <Button
             android:id="@+id/button_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_5"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_5"/>
 
         <Button
             android:id="@+id/button_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_6"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_6"/>
 
         <Button
             android:id="@+id/button_minus"
@@ -147,37 +117,22 @@
             android:id="@+id/button_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_1"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_1"/>
 
         <Button
             android:id="@+id/button_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_2"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_2"/>
 
         <Button
             android:id="@+id/button_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_numbers"
-            android:text="@string/button_text_3"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            style="@style/StyleNumbersButton"
+            android:text="@string/button_text_3"/>
 
         <Button
             android:id="@+id/button_multiply"
@@ -197,14 +152,9 @@
             android:id="@+id/button_0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:layout_span="2"
-            android:backgroundTint="@color/color_numbers"
+            style="@style/StyleNumbersButton"
             android:text="@string/button_text_0"
-            android:textColor="@color/text_color_numbers"
-            android:textSize="@dimen/size_of_text"
-            android:layout_marginEnd="@dimen/marginBetweenButton"/>
+            android:layout_span="2"/>
 
         <Button
             android:id="@+id/button_point"
