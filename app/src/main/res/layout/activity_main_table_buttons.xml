@@ -16,24 +16,16 @@
             android:id="@+id/button_del_el"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_other_sighs"
+            style="@style/StyleOtherButton"
             android:text="@string/button_text_del_el"
-            android:textColor="@color/text_color_other_signs"
-            android:textSize="@dimen/size_of_text"
             android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
             android:id="@+id/button_del_all"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_other_sighs"
+            style="@style/StyleOtherButton"
             android:text="@string/button_text_del_all"
-            android:textColor="@color/text_color_other_signs"
-            android:textSize="@dimen/size_of_text"
             android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
@@ -222,12 +214,8 @@
             android:id="@+id/button_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
-            android:backgroundTint="@color/color_other_sighs"
+            style="@style/StyleOtherButton"
             android:text="@string/button_text_point"
-            android:textColor="@color/text_color_other_signs"
-            android:textSize="@dimen/size_of_text"
             android:layout_marginEnd="@dimen/marginBetweenButton"/>
 
         <Button
