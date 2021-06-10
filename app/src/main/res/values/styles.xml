@@ -6,7 +6,6 @@
         <item name="android:backgroundTint">@color/color_math_sighs</item>
         <item name="android:textColor">@color/text_color_math_signs</item>
         <item name="android:textSize">@dimen/size_of_text</item>
-
     </style>
 
     <style name="StyleOtherButton" parent="Theme.AppCompat">
@@ -15,6 +14,13 @@
         <item name="android:backgroundTint">@color/color_other_sighs</item>
         <item name="android:textColor">@color/text_color_other_signs</item>
         <item name="android:textSize">@dimen/size_of_text</item>
+    </style>
 
+    <style name="StyleEquallyButton" parent="Theme.AppCompat">
+        <item name="android:minHeight">@dimen/minHeightButton</item>
+        <item name="android:minWidth">@dimen/minWidthButton</item>
+        <item name="android:backgroundTint">@color/color_button_equally</item>
+        <item name="android:textColor">@color/text_color_button_equally</item>
+        <item name="android:textSize">@dimen/size_of_text</item>
     </style>
 </resources>

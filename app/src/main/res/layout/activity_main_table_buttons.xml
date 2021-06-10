@@ -32,13 +32,9 @@
             android:id="@+id/button_equally"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minHeight="@dimen/minHeightButton"
-            android:minWidth="@dimen/minWidthButton"
+            style="@style/StyleEquallyButton"
             android:layout_span="2"
-            android:backgroundTint="@color/color_button_equally"
-            android:text="@string/button_text_equally"
-            android:textColor="@color/text_color_button_equally"
-            android:textSize="@dimen/size_of_text" />
+            android:text="@string/button_text_equally" />
 
     </TableRow>
 
