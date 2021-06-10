@@ -41,4 +41,13 @@
         <item name="android:orientation">vertical</item>
         <item name="android:padding">@dimen/padding</item>
     </style>
+
+    <style name="StyleTextView" parent="Theme.AppCompat">
+        <item name="android:layout_marginTop">@dimen/marginTopTextView</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomTextView</item>
+        <item name="android:textSize">@dimen/size_of_text_view</item>
+        <item name="android:textColor">@color/text_color_numbers</item>
+        <item name="android:background">@color/color_background_text_view</item>
+    </style>
+
 </resources>

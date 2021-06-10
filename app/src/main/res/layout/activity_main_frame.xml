@@ -7,15 +7,12 @@
 
     <TextView
         android:id="@+id/text_view"
-        android:layout_height="150dp"
+        android:layout_height="@dimen/height_text_view"
         android:layout_width="match_parent"
-        android:layout_marginTop="50dp"
-        android:background="@color/color_background_text_view"
-        android:textSize="@dimen/size_of_text_view"/>
+        style="@style/StyleTextView"/>
     <include
         layout="@layout/activity_main_table_buttons"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
