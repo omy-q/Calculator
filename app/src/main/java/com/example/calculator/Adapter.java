@@ -71,8 +71,6 @@ public class Adapter {
         return(text.toString().contains("="));
     }
 
-//    private boolean isEmptyText (){}
-
     protected boolean isAvailable(CharSequence text, boolean isClickEqually){
         if (text.length() == 0) return false;
         if (isContainMathSign(text.charAt(0))) return false;

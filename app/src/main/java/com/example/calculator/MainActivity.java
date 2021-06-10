@@ -13,7 +13,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private TextView text;
-//    private Button equallyButton;
     private Adapter adapter;
 
     private final View.OnClickListener listener = new View.OnClickListener() {
@@ -95,7 +94,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.i("MainActivity", String.valueOf((!adapter.isAvailable(text.getText(), true))));
                 if (!adapter.isAvailable(text.getText(), true)){
                     makeToast("Ошибка");
-//                    text.setText("");
                 }
                 else{
                     adapter.setData(text.getText());
