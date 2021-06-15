@@ -9,4 +9,5 @@
     <dimen name="marginTopTextView">10dp</dimen>
     <dimen name="marginBottomTextView">20dp</dimen>
     <dimen name="height_text_view">150dp</dimen>
+    <dimen name="height_image_button">200dp</dimen>
 </resources>

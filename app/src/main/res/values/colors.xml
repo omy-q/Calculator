@@ -73,5 +73,8 @@
     <color name="dark_color_background_table">#970A0A0A</color>
     <color name="dark_color_background_text_view">#B2F6F6F6</color>
 
+    <color name="colorSettingsLayout">#CC44ACA8</color>
+    <color name="colorButtonBack">#026354</color>
+    <color name="textColorButtonBack">#CCB5FFE5</color>
 
 </resources>
