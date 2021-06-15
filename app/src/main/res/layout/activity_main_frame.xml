@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     style="@style/StyleLinearLayout">
 
+    <ImageButton
+        android:id="@+id/button_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/StyleButtonSettings" />
     <TextView
         android:id="@+id/text_view"
         android:layout_height="@dimen/height_text_view"

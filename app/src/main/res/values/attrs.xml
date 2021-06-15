@@ -16,4 +16,6 @@
     <attr format="color" name="backgroundColorTextView" />
 
     <attr format="color" name="backgroundColorTableLayout" />
+
+    <attr format="reference" name="imageSettingsButton" />
 </resources>

@@ -59,4 +59,11 @@
     <style name="StyleTableRow" parent="Theme.AppCompat">
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="StyleButtonSettings">
+        <item name="android:src">?attr/imageSettingsButton</item>
+        <item name="android:gravity">end</item>
+
+
+    </style>
 </resources>
