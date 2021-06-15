@@ -6,7 +6,7 @@
     <dimen name="minHeightButton">60dp</dimen>
     <dimen name="size_of_text_view">50sp</dimen>
     <dimen name="padding">5dp</dimen>
-    <dimen name="marginTopTextView">50dp</dimen>
+    <dimen name="marginTopTextView">10dp</dimen>
     <dimen name="marginBottomTextView">20dp</dimen>
     <dimen name="height_text_view">150dp</dimen>
 </resources>
