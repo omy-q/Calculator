@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     style="@style/StyleFrameLayout"
-    android:theme="@style/DarkTheme">
+    android:theme="@style/BlueTheme">
 
     <include
         layout="@layout/activity_main_frame"

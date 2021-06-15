@@ -48,7 +48,7 @@
 
         <item name="backgroundColorTableLayout">@color/blue_color_background_table</item>
 
-        <item name="imageBackground">@drawable/purple_theme</item>
+        <item name="imageBackground">@drawable/blue_theme</item>
     </style>
 
     <style name="GreenTheme" parent="Theme.AppCompat">

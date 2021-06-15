@@ -25,20 +25,20 @@
     <color name="purple_color_background_text_view">#CCCEBCF6</color>
 
 
-    <color name="blue_color_button_equally">#FF6200EE</color>
+    <color name="blue_color_button_equally">#031FA6</color>
     <color name="blue_text_color_button_equally">#FFFFFFFF</color>
 
-    <color name="blue_color_numbers">#AE94EA</color>
-    <color name="blue_text_color_numbers">#FF3700B3</color>
+    <color name="blue_color_numbers">#4A9AED</color>
+    <color name="blue_text_color_numbers">#04267A</color>
 
-    <color name="blue_color_math_signs">#7340EA</color>
+    <color name="blue_color_math_signs">#0668D1</color>
     <color name="blue_text_color_math_signs">#FFFFFFFF</color>
 
-    <color name="blue_color_other_sighs">#8664EC</color>
-    <color name="blue_text_color_other_signs">#FFFFFFFF</color>
+    <color name="blue_color_other_sighs">#97BEFA</color>
+    <color name="blue_text_color_other_signs">#001860</color>
 
-    <color name="blue_color_background_table">#663700B3</color>
-    <color name="blue_color_background_text_view">#CCCEBCF6</color>
+    <color name="blue_color_background_table">#660138C1</color>
+    <color name="blue_color_background_text_view">#CC81D6F6</color>
 
 
 
