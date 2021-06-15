@@ -11,7 +11,29 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
-        <item name="colorButtonCalc">@color/color_numbers</item>
     </style>
+
+    <style name="PurpleTheme" parent="Theme.AppCompat">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
+        <!-- Customize your theme here. -->
+
+        <item name="textColorMathSigns">@color/purple_text_color_math_signs</item>
+        <item name="textColorOtherSigns">@color/purple_text_color_other_signs</item>
+        <item name="textColorEqually">@color/purple_text_color_button_equally</item>
+        <item name="textColorNumbers">@color/purple_text_color_numbers</item>
+
+        <item name="colorMathSigns">@color/purple_color_math_signs</item>
+        <item name="colorOtherSigns">@color/purple_color_other_sighs</item>
+        <item name="colorEqually">@color/purple_color_button_equally</item>
+        <item name="colorNumbers">@color/purple_color_numbers</item>
+
+        <item name="backgroundColorTextView">@color/purple_color_background_text_view</item>
+        <item name="textColorTextView">@color/purple_text_color_numbers</item>
+
+        <item name="backgroundColorTableLayout">@color/purple_color_background_table</item>
+
+        <item name="imageBackground">@drawable/background2</item>
+    </style>
+
+
 </resources>

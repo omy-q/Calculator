@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    style="@style/StyleFrameLayout">
+    style="@style/StyleFrameLayout"
+    android:theme="@style/PurpleTheme">
 
     <include
         layout="@layout/activity_main_frame"
