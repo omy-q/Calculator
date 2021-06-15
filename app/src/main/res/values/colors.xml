@@ -25,4 +25,53 @@
     <color name="purple_color_background_text_view">#CCCEBCF6</color>
 
 
+    <color name="blue_color_button_equally">#FF6200EE</color>
+    <color name="blue_text_color_button_equally">#FFFFFFFF</color>
+
+    <color name="blue_color_numbers">#AE94EA</color>
+    <color name="blue_text_color_numbers">#FF3700B3</color>
+
+    <color name="blue_color_math_signs">#7340EA</color>
+    <color name="blue_text_color_math_signs">#FFFFFFFF</color>
+
+    <color name="blue_color_other_sighs">#8664EC</color>
+    <color name="blue_text_color_other_signs">#FFFFFFFF</color>
+
+    <color name="blue_color_background_table">#663700B3</color>
+    <color name="blue_color_background_text_view">#CCCEBCF6</color>
+
+
+
+    <color name="green_color_button_equally">#00930E</color>
+    <color name="green_text_color_button_equally">#FFFFFFFF</color>
+
+    <color name="green_color_numbers">#94EAAE</color>
+    <color name="green_text_color_numbers">#104907</color>
+
+    <color name="green_color_math_signs">#07C50F</color>
+    <color name="green_text_color_math_signs">#FFFFFFFF</color>
+
+    <color name="green_color_other_sighs">#15F404</color>
+    <color name="green_text_color_other_signs">#104907</color>
+
+    <color name="green_color_background_table">#6600B337</color>
+    <color name="green_color_background_text_view">#CCBCF6CE</color>
+
+
+    <color name="dark_color_button_equally">#FF6200EE</color>
+    <color name="dark_text_color_button_equally">#FFFFFFFF</color>
+
+    <color name="dark_color_numbers">#AE94EA</color>
+    <color name="dark_text_color_numbers">#FF3700B3</color>
+
+    <color name="dark_color_math_signs">#7340EA</color>
+    <color name="dark_text_color_math_signs">#FFFFFFFF</color>
+
+    <color name="dark_color_other_sighs">#8664EC</color>
+    <color name="dark_text_color_other_signs">#FFFFFFFF</color>
+
+    <color name="dark_color_background_table">#663700B3</color>
+    <color name="dark_color_background_text_view">#CCCEBCF6</color>
+
+
 </resources>
