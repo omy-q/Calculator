@@ -14,9 +14,6 @@
     </style>
 
     <style name="PurpleTheme" parent="Theme.AppCompat">
-        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
-        <!-- Customize your theme here. -->
-
         <item name="textColorMathSigns">@color/purple_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/purple_text_color_other_signs</item>
         <item name="textColorEqually">@color/purple_text_color_button_equally</item>
@@ -36,9 +33,6 @@
     </style>
 
     <style name="BlueTheme" parent="Theme.AppCompat">
-        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
-        <!-- Customize your theme here. -->
-
         <item name="textColorMathSigns">@color/blue_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/blue_text_color_other_signs</item>
         <item name="textColorEqually">@color/blue_text_color_button_equally</item>
@@ -58,9 +52,6 @@
     </style>
 
     <style name="GreenTheme" parent="Theme.AppCompat">
-        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
-        <!-- Customize your theme here. -->
-
         <item name="textColorMathSigns">@color/green_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/green_text_color_other_signs</item>
         <item name="textColorEqually">@color/green_text_color_button_equally</item>
@@ -80,9 +71,6 @@
     </style>
 
     <style name="DarkTheme" parent="Theme.AppCompat">
-        <item name="android:statusBarColor" tools:targetApi="l">@color/purple_500</item>
-        <!-- Customize your theme here. -->
-
         <item name="textColorMathSigns">@color/dark_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/dark_text_color_other_signs</item>
         <item name="textColorEqually">@color/dark_text_color_button_equally</item>
@@ -98,6 +86,6 @@
 
         <item name="backgroundColorTableLayout">@color/dark_color_background_table</item>
 
-        <item name="imageBackground">@drawable/green_theme</item>
+        <item name="imageBackground">@drawable/dark_theme</item>
     </style>
 </resources>

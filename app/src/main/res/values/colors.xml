@@ -58,20 +58,20 @@
     <color name="green_color_background_text_view">#CCBCF6CE</color>
 
 
-    <color name="dark_color_button_equally">#FF6200EE</color>
-    <color name="dark_text_color_button_equally">#FFFFFFFF</color>
+    <color name="dark_color_button_equally">#BDBDBD</color>
+    <color name="dark_text_color_button_equally">#000000</color>
 
-    <color name="dark_color_numbers">#AE94EA</color>
-    <color name="dark_text_color_numbers">#FF3700B3</color>
+    <color name="dark_color_numbers">#6A6A6A</color>
+    <color name="dark_text_color_numbers">#000000</color>
 
-    <color name="dark_color_math_signs">#7340EA</color>
+    <color name="dark_color_math_signs">#202020</color>
     <color name="dark_text_color_math_signs">#FFFFFFFF</color>
 
-    <color name="dark_color_other_sighs">#8664EC</color>
+    <color name="dark_color_other_sighs">#353535</color>
     <color name="dark_text_color_other_signs">#FFFFFFFF</color>
 
-    <color name="dark_color_background_table">#663700B3</color>
-    <color name="dark_color_background_text_view">#CCCEBCF6</color>
+    <color name="dark_color_background_table">#970A0A0A</color>
+    <color name="dark_color_background_text_view">#B2F6F6F6</color>
 
 
 </resources>
