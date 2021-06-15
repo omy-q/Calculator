@@ -2,7 +2,7 @@
     <string name="app_name">Calculator</string>
 
     <string name="button_text_del_el">C</string>
-    <string name="button_text_del_all">del</string>
+    <string name="button_text_del_all">DEL</string>
 
     <string name="button_text_equally">=</string>
     <string name="button_text_plus">+</string>

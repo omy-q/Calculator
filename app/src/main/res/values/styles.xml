@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StyleMathButton" parent="Theme.AppCompat">
+        <item name="android:minHeight">@dimen/minHeightButton</item>
+        <item name="android:minWidth">@dimen/minWidthButton</item>
+        <item name="android:backgroundTint">@color/color_math_sighs</item>
+        <item name="android:textColor">@color/text_color_math_signs</item>
+        <item name="android:textSize">@dimen/size_of_text</item>
+    </style>
+
+    <style name="StyleOtherButton" parent="Theme.AppCompat">
+        <item name="android:minHeight">@dimen/minHeightButton</item>
+        <item name="android:minWidth">@dimen/minWidthButton</item>
+        <item name="android:backgroundTint">@color/color_other_sighs</item>
+        <item name="android:textColor">@color/text_color_other_signs</item>
+        <item name="android:textSize">@dimen/size_of_text</item>
+    </style>
+
+    <style name="StyleEquallyButton" parent="Theme.AppCompat">
+        <item name="android:minHeight">@dimen/minHeightButton</item>
+        <item name="android:minWidth">@dimen/minWidthButton</item>
+        <item name="android:backgroundTint">@color/color_button_equally</item>
+        <item name="android:textColor">@color/text_color_button_equally</item>
+        <item name="android:textSize">@dimen/size_of_text</item>
+    </style>
+
+    <style name="StyleNumbersButton" parent="Theme.AppCompat">
+        <item name="android:minHeight">@dimen/minHeightButton</item>
+        <item name="android:minWidth">@dimen/minWidthButton</item>
+        <item name="android:backgroundTint">@color/color_numbers</item>
+        <item name="android:textColor">@color/text_color_numbers</item>
+        <item name="android:textSize">@dimen/size_of_text</item>
+        <item name="android:layout_marginEnd">@dimen/marginBetweenButton</item>
+    </style>
+
+    <style name="StyleFrameLayout" parent="Theme.AppCompat">
+        <item name="android:background">@drawable/background2</item>
+    </style>
+
+    <style name="StyleLinearLayout" parent="Theme.AppCompat">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+
+    <style name="StyleTextView" parent="Theme.AppCompat">
+        <item name="android:layout_marginTop">@dimen/marginTopTextView</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomTextView</item>
+        <item name="android:textSize">@dimen/size_of_text_view</item>
+        <item name="android:textColor">@color/text_color_numbers</item>
+        <item name="android:background">@color/color_background_text_view</item>
+    </style>
+
+    <style name="StyleTableLayout" parent="Theme.AppCompat">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/color_background_table</item>
+    </style>
+
+    <style name="StyleTableRow" parent="Theme.AppCompat">
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
