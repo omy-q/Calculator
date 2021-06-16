@@ -3,6 +3,7 @@ package com.example.calculator;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -15,21 +16,22 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView text;
     private Adapter adapter;
-    private String themeName;
+    private final String themeName = "THEME_NAME";
+    private String themeValue;
+    private final String themeNameDefault = "PurpleTheme";
+    private final int REQUEST_CODE = 1;
 
     private final View.OnClickListener listener = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            if (v.getId() == R.id.button_del_el){
+            if (v.getId() == R.id.button_del_el) {
                 CharSequence str = text.getText();
                 if (str.length() == 0) text.setText("");
                 else text.setText(str.subSequence(0, str.length() - 1));
-            }
-            else if (v.getId() == R.id.button_del_all){
+            } else if (v.getId() == R.id.button_del_all) {
                 text.setText("");
-            }
-            else {
-                if (adapter.isContainEquallySign(text.getText())){
+            } else {
+                if (adapter.isContainEquallySign(text.getText())) {
                     text.setText("");
                 }
                 text.append(((Button) v).getText());
@@ -41,30 +43,32 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (savedInstanceState != null){
-            Log.i("MainActivity","recreate");
-            setTheme(getIdAppTheme(themeName));
-        }
-        else{
-            setTheme(R.style.PurpleTheme);
-        }
-
+        themeValue = getPreferences(MODE_PRIVATE).getString(themeName, themeNameDefault);
+        setTheme(getIdAppTheme());
         setContentView(R.layout.activity_main);
         init();
         adapter = new Adapter();
     }
 
-
-   @Override
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-       super.onActivityResult(requestCode, resultCode, data);
-       themeName = data.getExtras().getString("THEME_NAME");
-       Log.i("MainActivity",themeName);
-       recreate();
-   }
+        if (requestCode != REQUEST_CODE) {
+            super.onActivityResult(requestCode, resultCode, data);
+            return;
+        }
+        if (resultCode == RESULT_OK) {
+            String themeVal = data.getExtras().getString(themeName, themeNameDefault);
+            SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString(themeName, themeVal);
+            editor.apply();
+            recreate();
+        }
+    }
 
-    private int getIdAppTheme(String themeName) {
-        switch(themeName){
+    private int getIdAppTheme() {
+        Log.i("MainActivity", "getIdTheme: " + themeValue);
+        switch (themeValue) {
             case "DarkTheme":
                 return R.style.DarkTheme;
             case "BlueTheme":
@@ -73,10 +77,10 @@ public class MainActivity extends AppCompatActivity {
                 return R.style.GreenTheme;
             default:
                 return R.style.PurpleTheme;
-         }
+        }
     }
 
-    private void init(){
+    private void init() {
         initTextView();
         initNumbersButton();
         initMathButton();
@@ -91,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent runSettings = new Intent(MainActivity.this, ActivityThemeSelection.class);
-                startActivityForResult(runSettings, 1);
+                startActivityForResult(runSettings, REQUEST_CODE);
             }
         });
     }
@@ -105,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button_point).setOnClickListener(listener);
     }
 
-    private  void initNumbersButton(){
+    private void initNumbersButton() {
 
         findViewById(R.id.button_0).setOnClickListener(listener);
         findViewById(R.id.button_1).setOnClickListener(listener);
@@ -130,16 +134,15 @@ public class MainActivity extends AppCompatActivity {
         text = findViewById(R.id.text_view);
     }
 
-    private void initEqually(){
+    private void initEqually() {
         Button equallyButton = findViewById(R.id.button_equally);
         equallyButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.i("MainActivity", String.valueOf((!adapter.isAvailable(text.getText(), true))));
-                if (!adapter.isAvailable(text.getText(), true)){
+                if (!adapter.isAvailable(text.getText(), true)) {
                     makeToast("Ошибка");
-                }
-                else{
+                } else {
                     adapter.setData(text.getText());
                     adapter.processingData();
                     text.append("=" + adapter.getData());
@@ -148,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void makeToast(String message){
+    private void makeToast(String message) {
         Toast toast = Toast.makeText(this, message, Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.TOP, 0, 0);
         toast.show();
