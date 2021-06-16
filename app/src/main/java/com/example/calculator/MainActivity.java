@@ -2,6 +2,7 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView text;
     private Adapter adapter;
+    private String themeName;
 
     private final View.OnClickListener listener = new View.OnClickListener() {
         @Override
@@ -39,9 +41,39 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if (savedInstanceState != null){
+            Log.i("MainActivity","recreate");
+            setTheme(getIdAppTheme(themeName));
+        }
+        else{
+            setTheme(R.style.PurpleTheme);
+        }
+
         setContentView(R.layout.activity_main);
         init();
         adapter = new Adapter();
+    }
+
+
+   @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+       super.onActivityResult(requestCode, resultCode, data);
+       themeName = data.getExtras().getString("THEME_NAME");
+       Log.i("MainActivity",themeName);
+       recreate();
+   }
+
+    private int getIdAppTheme(String themeName) {
+        switch(themeName){
+            case "DarkTheme":
+                return R.style.DarkTheme;
+            case "BlueTheme":
+                return R.style.BlueTheme;
+            case "GreenTheme":
+                return R.style.GreenTheme;
+            default:
+                return R.style.PurpleTheme;
+         }
     }
 
     private void init(){
@@ -50,6 +82,18 @@ public class MainActivity extends AppCompatActivity {
         initMathButton();
         initSpecialButton();
         initEqually();
+        initSettingsButton();
+    }
+
+    private void initSettingsButton() {
+
+        findViewById(R.id.button_settings).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent runSettings = new Intent(MainActivity.this, ActivityThemeSelection.class);
+                startActivityForResult(runSettings, 1);
+            }
+        });
     }
 
     private void initMathButton() {

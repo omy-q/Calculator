@@ -13,7 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
     </style>
 
-    <style name="PurpleTheme" parent="Theme.AppCompat">
+    <style name="PurpleTheme" parent="Theme.Calculator">
         <item name="textColorMathSigns">@color/purple_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/purple_text_color_other_signs</item>
         <item name="textColorEqually">@color/purple_text_color_button_equally</item>
@@ -32,7 +32,7 @@
         <item name="imageBackground">@drawable/purple_theme</item>
     </style>
 
-    <style name="BlueTheme" parent="Theme.AppCompat">
+    <style name="BlueTheme" parent="Theme.Calculator">
         <item name="textColorMathSigns">@color/blue_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/blue_text_color_other_signs</item>
         <item name="textColorEqually">@color/blue_text_color_button_equally</item>
@@ -51,7 +51,7 @@
         <item name="imageBackground">@drawable/blue_theme</item>
     </style>
 
-    <style name="GreenTheme" parent="Theme.AppCompat">
+    <style name="GreenTheme" parent="Theme.Calculator">
         <item name="textColorMathSigns">@color/green_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/green_text_color_other_signs</item>
         <item name="textColorEqually">@color/green_text_color_button_equally</item>
@@ -70,7 +70,7 @@
         <item name="imageBackground">@drawable/green_theme</item>
     </style>
 
-    <style name="DarkTheme" parent="Theme.AppCompat">
+    <style name="DarkTheme" parent="Theme.Calculator">
         <item name="textColorMathSigns">@color/dark_text_color_math_signs</item>
         <item name="textColorOtherSigns">@color/dark_text_color_other_signs</item>
         <item name="textColorEqually">@color/dark_text_color_button_equally</item>
