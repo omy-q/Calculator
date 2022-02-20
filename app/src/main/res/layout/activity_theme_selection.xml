@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityThemeSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/StyleSettingsLayout">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/StyleButtonBack" />
+
+
+        <ImageButton
+            android:id="@+id/image_purple"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_image_button"
+            android:src="@drawable/image_purple"
+            style="@style/StyleImageButton"/>
+
+        <ImageButton
+            android:id="@+id/image_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_image_button"
+            android:src="@drawable/image_blue"
+            style="@style/StyleImageButton"/>
+
+        <ImageButton
+            android:id="@+id/image_green"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_image_button"
+            android:src="@drawable/image_green"
+            style="@style/StyleImageButton"/>
+
+        <ImageButton
+            android:id="@+id/image_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_image_button"
+            android:src="@drawable/image_dark"
+            style="@style/StyleImageButton"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

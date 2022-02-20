@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="textColorMathSigns" />
+    <attr format="color" name="textColorOtherSigns" />
+    <attr format="color" name="textColorEqually" />
+    <attr format="color" name="textColorNumbers" />
+
+    <attr format="color" name="colorMathSigns" />
+    <attr format="color" name="colorOtherSigns" />
+    <attr format="color" name="colorEqually" />
+    <attr format="color" name="colorNumbers" />
+
+    <attr format="reference" name="imageBackground" />
+
+    <attr format="color" name="textColorTextView" />
+    <attr format="color" name="backgroundColorTextView" />
+
+    <attr format="color" name="backgroundColorTableLayout" />
+
+    <attr format="reference" name="imageSettingsButton" />
+</resources>

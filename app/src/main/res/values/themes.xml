@@ -11,6 +11,81 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PurpleTheme" parent="Theme.Calculator">
+        <item name="textColorMathSigns">@color/purple_text_color_math_signs</item>
+        <item name="textColorOtherSigns">@color/purple_text_color_other_signs</item>
+        <item name="textColorEqually">@color/purple_text_color_button_equally</item>
+        <item name="textColorNumbers">@color/purple_text_color_numbers</item>
+
+        <item name="colorMathSigns">@color/purple_color_math_signs</item>
+        <item name="colorOtherSigns">@color/purple_color_other_sighs</item>
+        <item name="colorEqually">@color/purple_color_button_equally</item>
+        <item name="colorNumbers">@color/purple_color_numbers</item>
+
+        <item name="backgroundColorTextView">@color/purple_color_background_text_view</item>
+        <item name="textColorTextView">@color/purple_text_color_numbers</item>
+
+        <item name="backgroundColorTableLayout">@color/purple_color_background_table</item>
+
+        <item name="imageBackground">@drawable/purple_theme</item>
+    </style>
+
+    <style name="BlueTheme" parent="Theme.Calculator">
+        <item name="textColorMathSigns">@color/blue_text_color_math_signs</item>
+        <item name="textColorOtherSigns">@color/blue_text_color_other_signs</item>
+        <item name="textColorEqually">@color/blue_text_color_button_equally</item>
+        <item name="textColorNumbers">@color/blue_text_color_numbers</item>
+
+        <item name="colorMathSigns">@color/blue_color_math_signs</item>
+        <item name="colorOtherSigns">@color/blue_color_other_sighs</item>
+        <item name="colorEqually">@color/blue_color_button_equally</item>
+        <item name="colorNumbers">@color/blue_color_numbers</item>
+
+        <item name="backgroundColorTextView">@color/blue_color_background_text_view</item>
+        <item name="textColorTextView">@color/blue_text_color_numbers</item>
+
+        <item name="backgroundColorTableLayout">@color/blue_color_background_table</item>
+
+        <item name="imageBackground">@drawable/blue_theme</item>
+    </style>
+
+    <style name="GreenTheme" parent="Theme.Calculator">
+        <item name="textColorMathSigns">@color/green_text_color_math_signs</item>
+        <item name="textColorOtherSigns">@color/green_text_color_other_signs</item>
+        <item name="textColorEqually">@color/green_text_color_button_equally</item>
+        <item name="textColorNumbers">@color/green_text_color_numbers</item>
+
+        <item name="colorMathSigns">@color/green_color_math_signs</item>
+        <item name="colorOtherSigns">@color/green_color_other_sighs</item>
+        <item name="colorEqually">@color/green_color_button_equally</item>
+        <item name="colorNumbers">@color/green_color_numbers</item>
+
+        <item name="backgroundColorTextView">@color/green_color_background_text_view</item>
+        <item name="textColorTextView">@color/green_text_color_numbers</item>
+
+        <item name="backgroundColorTableLayout">@color/green_color_background_table</item>
+
+        <item name="imageBackground">@drawable/green_theme</item>
+    </style>
+
+    <style name="DarkTheme" parent="Theme.Calculator">
+        <item name="textColorMathSigns">@color/dark_text_color_math_signs</item>
+        <item name="textColorOtherSigns">@color/dark_text_color_other_signs</item>
+        <item name="textColorEqually">@color/dark_text_color_button_equally</item>
+        <item name="textColorNumbers">@color/dark_text_color_numbers</item>
+
+        <item name="colorMathSigns">@color/dark_color_math_signs</item>
+        <item name="colorOtherSigns">@color/dark_color_other_sighs</item>
+        <item name="colorEqually">@color/dark_color_button_equally</item>
+        <item name="colorNumbers">@color/dark_color_numbers</item>
+
+        <item name="backgroundColorTextView">@color/dark_color_background_text_view</item>
+        <item name="textColorTextView">@color/dark_text_color_numbers</item>
+
+        <item name="backgroundColorTableLayout">@color/dark_color_background_table</item>
+
+        <item name="imageBackground">@drawable/dark_theme</item>
     </style>
 </resources>

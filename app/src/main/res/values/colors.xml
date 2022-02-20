@@ -9,20 +9,72 @@
     <color name="white">#FFFFFFFF</color>
 
 
-    <color name="color_button_equally">#FF6200EE</color>
-    <color name="text_color_button_equally">#FFFFFFFF</color>
+    <color name="purple_color_button_equally">#FF6200EE</color>
+    <color name="purple_text_color_button_equally">#FFFFFFFF</color>
 
-    <color name="color_numbers">#AE94EA</color>
-    <color name="text_color_numbers">#FF3700B3</color>
+    <color name="purple_color_numbers">#AE94EA</color>
+    <color name="purple_text_color_numbers">#FF3700B3</color>
 
-    <color name="color_math_sighs">#7340EA</color>
-    <color name="text_color_math_signs">#FFFFFFFF</color>
+    <color name="purple_color_math_signs">#7340EA</color>
+    <color name="purple_text_color_math_signs">#FFFFFFFF</color>
 
-    <color name="color_other_sighs">#8664EC</color>
-    <color name="text_color_other_signs">#FFFFFFFF</color>
+    <color name="purple_color_other_sighs">#8664EC</color>
+    <color name="purple_text_color_other_signs">#FFFFFFFF</color>
 
-    <color name="color_background_table">#663700B3</color>
-    <color name="color_background_text_view">#CCCEBCF6</color>
+    <color name="purple_color_background_table">#663700B3</color>
+    <color name="purple_color_background_text_view">#CCCEBCF6</color>
 
+
+    <color name="blue_color_button_equally">#031FA6</color>
+    <color name="blue_text_color_button_equally">#FFFFFFFF</color>
+
+    <color name="blue_color_numbers">#4A9AED</color>
+    <color name="blue_text_color_numbers">#04267A</color>
+
+    <color name="blue_color_math_signs">#0668D1</color>
+    <color name="blue_text_color_math_signs">#FFFFFFFF</color>
+
+    <color name="blue_color_other_sighs">#97BEFA</color>
+    <color name="blue_text_color_other_signs">#001860</color>
+
+    <color name="blue_color_background_table">#660138C1</color>
+    <color name="blue_color_background_text_view">#CC81D6F6</color>
+
+
+
+    <color name="green_color_button_equally">#00930E</color>
+    <color name="green_text_color_button_equally">#FFFFFFFF</color>
+
+    <color name="green_color_numbers">#94EAAE</color>
+    <color name="green_text_color_numbers">#104907</color>
+
+    <color name="green_color_math_signs">#07C50F</color>
+    <color name="green_text_color_math_signs">#FFFFFFFF</color>
+
+    <color name="green_color_other_sighs">#15F404</color>
+    <color name="green_text_color_other_signs">#104907</color>
+
+    <color name="green_color_background_table">#6600B337</color>
+    <color name="green_color_background_text_view">#CCBCF6CE</color>
+
+
+    <color name="dark_color_button_equally">#BDBDBD</color>
+    <color name="dark_text_color_button_equally">#000000</color>
+
+    <color name="dark_color_numbers">#6A6A6A</color>
+    <color name="dark_text_color_numbers">#000000</color>
+
+    <color name="dark_color_math_signs">#202020</color>
+    <color name="dark_text_color_math_signs">#FFFFFFFF</color>
+
+    <color name="dark_color_other_sighs">#353535</color>
+    <color name="dark_text_color_other_signs">#FFFFFFFF</color>
+
+    <color name="dark_color_background_table">#970A0A0A</color>
+    <color name="dark_color_background_text_view">#B2F6F6F6</color>
+
+    <color name="colorSettingsLayout">#CC44ACA8</color>
+    <color name="colorButtonBack">#026354</color>
+    <color name="textColorButtonBack">#CCB5FFE5</color>
 
 </resources>

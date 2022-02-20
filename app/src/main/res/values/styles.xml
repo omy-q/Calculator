@@ -3,38 +3,38 @@
     <style name="StyleMathButton" parent="Theme.AppCompat">
         <item name="android:minHeight">@dimen/minHeightButton</item>
         <item name="android:minWidth">@dimen/minWidthButton</item>
-        <item name="android:backgroundTint">@color/color_math_sighs</item>
-        <item name="android:textColor">@color/text_color_math_signs</item>
+        <item name="android:backgroundTint">?attr/colorMathSigns</item>
+        <item name="android:textColor">?attr/textColorMathSigns</item>
         <item name="android:textSize">@dimen/size_of_text</item>
     </style>
 
     <style name="StyleOtherButton" parent="Theme.AppCompat">
         <item name="android:minHeight">@dimen/minHeightButton</item>
         <item name="android:minWidth">@dimen/minWidthButton</item>
-        <item name="android:backgroundTint">@color/color_other_sighs</item>
-        <item name="android:textColor">@color/text_color_other_signs</item>
+        <item name="android:backgroundTint">?attr/colorOtherSigns</item>
+        <item name="android:textColor">?attr/textColorOtherSigns</item>
         <item name="android:textSize">@dimen/size_of_text</item>
     </style>
 
     <style name="StyleEquallyButton" parent="Theme.AppCompat">
         <item name="android:minHeight">@dimen/minHeightButton</item>
         <item name="android:minWidth">@dimen/minWidthButton</item>
-        <item name="android:backgroundTint">@color/color_button_equally</item>
-        <item name="android:textColor">@color/text_color_button_equally</item>
+        <item name="android:backgroundTint">?attr/colorEqually</item>
+        <item name="android:textColor">?attr/textColorEqually</item>
         <item name="android:textSize">@dimen/size_of_text</item>
     </style>
 
     <style name="StyleNumbersButton" parent="Theme.AppCompat">
         <item name="android:minHeight">@dimen/minHeightButton</item>
         <item name="android:minWidth">@dimen/minWidthButton</item>
-        <item name="android:backgroundTint">@color/color_numbers</item>
-        <item name="android:textColor">@color/text_color_numbers</item>
+        <item name="android:backgroundTint">?attr/colorNumbers</item>
+        <item name="android:textColor">?attr/textColorNumbers</item>
         <item name="android:textSize">@dimen/size_of_text</item>
         <item name="android:layout_marginEnd">@dimen/marginBetweenButton</item>
     </style>
 
     <style name="StyleFrameLayout" parent="Theme.AppCompat">
-        <item name="android:background">@drawable/background2</item>
+        <item name="android:background">?attr/imageBackground</item>
     </style>
 
     <style name="StyleLinearLayout" parent="Theme.AppCompat">
@@ -46,17 +46,43 @@
         <item name="android:layout_marginTop">@dimen/marginTopTextView</item>
         <item name="android:layout_marginBottom">@dimen/marginBottomTextView</item>
         <item name="android:textSize">@dimen/size_of_text_view</item>
-        <item name="android:textColor">@color/text_color_numbers</item>
-        <item name="android:background">@color/color_background_text_view</item>
+        <item name="android:textColor">?attr/textColorTextView</item>
+        <item name="android:background">?attr/backgroundColorTextView</item>
     </style>
 
     <style name="StyleTableLayout" parent="Theme.AppCompat">
         <item name="android:gravity">center</item>
         <item name="android:orientation">horizontal</item>
-        <item name="android:background">@color/color_background_table</item>
+        <item name="android:background">?attr/backgroundColorTableLayout</item>
     </style>
 
     <style name="StyleTableRow" parent="Theme.AppCompat">
         <item name="android:gravity">center</item>
     </style>
+
+    <style name="StyleButtonSettings">
+        <item name="android:src">@drawable/ic_settings</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+    <style name="StyleSettingsLayout">
+        <item name="android:background">@color/colorSettingsLayout</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="StyleButtonBack">
+        <item name="android:backgroundTint">@color/colorButtonBack</item>
+        <item name="android:textColor">@color/textColorButtonBack</item>
+        <item name="android:textSize">@dimen/size_of_text</item>
+        <item name="android:text">@string/back_button</item>
+        <item name="android:layout_gravity">start</item>
+    </style>
+
+    <style name="StyleImageButton">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+
 </resources>
